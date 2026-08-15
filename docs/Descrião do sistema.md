@@ -1,0 +1,1 @@
+Accounts: Sistema está criando um perfil para o usuário, e tem rotas para acessar o perfil, fazer upload do perfil e tudo de forma segura com token de segurança.

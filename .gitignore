@@ -1,0 +1,33 @@
+# Python / Byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments (Ambientes Virtuais)
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Banco de Dados Local
+*.sqlite3
+*.db
+
+# Django especificidades e Mídia
+local_settings.py
+db.sqlite3-journal
+media/
+staticfiles/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs do Sistema
+*.log
