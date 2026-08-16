@@ -96,3 +96,69 @@ http://127.0.0.1:8000/api/v1/posts/
     "created_at": "post_create_date",
     "updated_at": "post_updated_date"
 }
+
+2. Post 
+- Endpoint destinado a fazer o get do post
+
+- URL GET
+http://127.0.0.1:8000/api/v1/posts/
+
+- Header
+    Authorization
+    Bearer Token: access_token
+
+- Body: None
+
+3. Post
+- Endpoint destinado a fazer o put do post
+
+- URL PUT
+http://127.0.0.1:8000/api/v1/posts/post_id/
+
+- Header
+    Authorization
+    Bearer Token: access_token
+
+- Body (json)
+{
+    "text": "put_text"
+}
+
+4. Post
+- Endpoint destinado a fazer o patch do post
+
+- URL PATCH
+http://127.0.0.1:8000/api/v1/posts/post_id/
+
+- Header
+    Authorization
+    Bearer Token: access_token
+
+- Body (json)
+{
+    "text": "text_patch"
+}
+
+5. Post
+- Endpoint destinado a deletar o post
+
+- URL DELETE
+http://127.0.0.1:8000/api/v1/posts/_id_post/
+
+- Header
+    Authorization
+    Bearer Token: access_token
+
+- Body: None
+
+6. Feed
+
+- Endpoint destinado a fazer o get do feed
+
+- URL GET
+
+- Header
+    Authorization
+    Bearer Token: access_token
+
+- Body: none

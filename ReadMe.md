@@ -12,6 +12,12 @@ No diagrama.sql, está a estrutura do projeto.
 2.1 Para criar o arquivo do python, primeiro crie um venv:
     python -m venv <SuaPasta>/venv
 
+    Depois para abrir o venv use:
+        venv/Scripts/Activate.ps1
+
+    Baixe todas as dependências do projeto com:
+        pip install -r requirements.txt
+
 2.2 Depois estão os comandos para operar o sistema:
 - Temos 3 ambientes na versão 1.0, um para teste, um para desenvolver e um futuro para produção.
 - Como agora os ambientes estão separados, você precisa indicar qual arquivo de settings utilizar.
